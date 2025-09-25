@@ -5,42 +5,55 @@
   <title>Felsővárosi Iskola Archívum</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
-      padding: 2rem;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #005a9c;
+      color: white;
+      padding: 1rem;
       text-align: center;
     }
-    h1 {
-      color: #005a9c;
+    nav {
+      background-color: #e3f2fd;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      gap: 2rem;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 1rem 0;
-    }
-    a {
+    nav a {
       text-decoration: none;
-      color: #0077cc;
-      font-size: 1.2rem;
-      border: 2px solid #0077cc;
+      color: #005a9c;
+      font-weight: bold;
       padding: 0.5rem 1rem;
+      border: 2px solid #005a9c;
       border-radius: 5px;
-      display: inline-block;
       transition: background-color 0.3s;
     }
-    a:hover {
-      background-color: #e0f0ff;
+    nav a:hover {
+      background-color: #cce4ff;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>📚 Felsővárosi Iskola – Tanévek Archívuma</h1>
-  <ul>
-    <li><a href="2021-2022-esemenyek.html">2021/2022-es tanév</a></li>
-    <li><a href="2022-2023-esemenyek.html">2022/2023-as tanév</a></li>
-    <li><a href="2023-2024-esemenyek.html">2023/2024-es tanév</a></li>
-  </ul>
+  <header>
+    <h1>📚 Felsővárosi Iskola – Archívum</h1>
+    <p>Válassz tanévet az események megtekintéséhez</p>
+  </header>
+
+  <nav>
+    <a href="2021-2022-esemenyek.html">2021/2022</a>
+    <a href="2022-2023-esemenyek.html">2022/2023</a>
+    <a href="2023-2024-esemenyek.html">2023/2024</a>
+  </nav>
+
+  <main>
+    <p>Az iskola életének kiemelt eseményei, ünnepségek, projektek és közösségi pillanatok tanévenként rendszerezve.</p>
+  </main>
 </body>
 </html>
